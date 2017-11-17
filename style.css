@@ -1,8 +1,35 @@
+/* entire page color and position*/
 .page{
-color: #f1c40f;
+background-color: #f4d03f;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
 }
 
-.navigation{
-  background-color: #8e44ad;
-  width: 100%
+.navbar{
+  position: fixed;
+  background-color: #9B59B6;
+  width: 100%;
+}
+
+.center{
+  font-family: "Raleway", sans-serif;
+  color: #f4d03f;
+  font-size: 30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: -5px  auto;
+}
+
+.right{
+  display:flex;
+  justify-content:right;
+  align-items:center;
+}
+
+.right a{
+  padding: 0px 30px;
 }
