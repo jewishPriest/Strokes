@@ -14,38 +14,38 @@ left: 0;
   width: 100%;
 }
 
-.center{
+.navcenter{
   font-family: "Raleway", sans-serif;
   color: #f4d03f;
-  font-size: 30px;
+  font-size: 35px;
   display:flex;
   justify-content:center;
   align-items:center;
   margin: -5px 300px;
 }
 
-.right{
+.navright{
   display:flex;
   justify-content:flex-end;
   align-items:center;
 }
 
-.right a{
+.navright a{
   padding: 0px 30px;
   font-family: "Raleway";
   color: #f4d03f;
-  font-size: 17px;
+  font-size: 20px;
 }
 
-.left{
+.navleft{
   display:flex;
   justify-content:left;
   align-items:center;
 }
 
-.left a{
+.navleft a{
   padding: 0px 30px;
   font-family: "Raleway";
   color: #f4d03f;
-  font-size: 17px;
+  font-size: 20px;
 }
