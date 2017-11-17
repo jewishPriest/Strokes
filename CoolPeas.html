@@ -5,13 +5,14 @@
     <title>My Hardware SUCCess</title>
   </head>
   <body>
-    <form action="/action_page.php">
-  Date of Semen Expulsion:
-  <input type="date" name="fap">
-  <input type="submit" value="Submit">
-</form>
-<form action="/action_page.php" id="usrform">
-  Post fap Reflection: <input type="text" name="usrname">
-  <input type="Submit">
+    <div class="myform">
+  <label for="date">Date</label>
+  <input id="date" type="date">
+   <label for="comment">Comment</label>
+  <input id="comment" type="text">
+  <!-- etc... -->
+  <a class="send" href="#">Submit</a>
+</div>
+<script src="./friggennerd.js"></script>
   </body>
 </html>
